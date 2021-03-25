@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="safari webkit win desktop UI&amp;UE&amp;FE.by.ayin86(at)163.com">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="pc_txl/favicon.ico" type="image/x-icon"/>
+<title>西岗大队门闸系统</title>
+<script src="./pc_txl/uaredirect.js" type="text/javascript"></script>
+<script type="text/javascript">uaredirect("mobile.html","iphone.html");</script>
+<script src="pc_txl/loadFiles.js"></script>
+<style type="text/css"></style>
+<style type="text/less"></style>
+</head>
+<body class="page-mobile">
+	<div class="full-box">
+		<div class="center-stage" id="center-stage">
+			<div class="logo-wrapper"></div>
+			<div class="row row-top">
+				<div class="col-top col-xs-4">
+					<div class="row row-2nd">
+						<div class="col-mark col-xs-12">
+							<div class="box-mark box-n1 box-h1" onclick="window.location.href=('./down/xgddmz.apk')" data-toggle="tooltip" data-placement="top" title="点击直接下载">
+								<p class="title">西岗大队门闸系统</p>
+								<p class="descs">西岗大队门闸系统</p>
+								<p class="desc">点击下载</p>
+								<i class="fa fa-mobile-android-alt"></i>
+								<i class="fab fa-android"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-top col-xs-4">
+					<div class="row">
+						<div class="col-mark col-xs-12">
+							<div class="box-mark box-n5 box-h2" onclick="window.location.href=('./down/xgddmz.bak')" data-toggle="tooltip" data-placement="top" title="点击直接下载">
+								<i class="fal fa-film"></i>
+								<span class="titlechs">西岗大队门闸系统2<span class="eng">西岗大队门闸系统2</span></span>
+								<p class="desc">点击下载</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-top col-xs-4">
+					<div class="row row-3rd">						
+						<div class="col-mark col-xs-12">
+							<div class="box-mark box-n9 box-h1" onclick="window.location.href=('./down/2.bak')" data-toggle="tooltip" data-placement="top" title="点击直接下载">
+								<p class="title">无用</p>
+								<p class="descs">无用</p>
+								<p class="desc">无用</p>
+								<i class="fab fa-apple"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<img class="full-bg" src="pc_txl/bg.png" alt="" />
+	</div>
+</body>
+</html>
+<script>
+  if($("html").hasClass("desktop")){
+  	$('[data-toggle="tooltip"]').tooltip()
+  	$(".logo").on("dblclick",function(){
+		$(document).mousemove(function(e){
+		  var x = e.clientX-document.body.clientWidth/2;
+		  var y = e.clientY-document.body.clientHeight/2;
+		
+		    var w = window.innerWidth;
+		    $('.full-box').css('transform', 'translateZ(100px) perspective(1000px) rotateX('+-y/80+'deg) rotateY('+x/80+'deg)')
+		    $('.box-mark').css('box-shadow', -x/30+'px '+-y/30+'px 20px rgba(0,0,0,.3)');
+		    //$('.logo-wrapper .desc').css('text-shadow', -x/30+'px '+-y/30+'px 10px rgba(0,0,0,.8)');
+		});
+	})
+  }
+$(function(){
+	//$('#myModal').modal('show');
+})
+</script>
